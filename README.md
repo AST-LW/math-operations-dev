@@ -39,19 +39,21 @@ Once you've set up your local environment by forking or downloading ( With downl
     npm install
     ```
 
-2. **Create a New Branch**: From the `main` branch, create a new branch for your changes. This is a best practice that keeps the `main` branch stable and your work organized.
+2. **Configure Workflow File**: Before creating any branches, open the `math_operations_dev.yml` file in the repository. Replace <username> with your actual GitHub username and push the main / master branch. This ensures that the workflow correctly points to your forked or newly pushed math-operations-e2e repository. It's a crucial step to align the automated processes with your GitHub environment.
+
+3. **Create a New Branch**: From the `main` branch, create a new branch for your changes. This is a best practice that keeps the `main` branch stable and your work organized.
 
     ```bash
     git checkout -b feature/my-new-feature
     ```
 
-3. **Make Your Changes**: Implement your feature or simply make a small change to get started. If you're not ready to dive into the application logic, adding a comment is enough in `app.js` file. For example:
+4. **Make Your Changes**: Implement your feature or simply make a small change to get started. If you're not ready to dive into the application logic, adding a comment is enough in `app.js` file. For example:
 
     ```javascript
     // TODO: Describe the logic of a new math operation here
     ```
 
-4. **Commit and Push Your Changes**: Once you've made your change, commit it to your branch and push it to the repository.
+5. **Commit and Push Your Changes**: Once you've made your change, commit it to your branch and push it to the repository.
 
     ```bash
     git add .
@@ -59,9 +61,9 @@ Once you've set up your local environment by forking or downloading ( With downl
     git push origin feature/my-new-feature
     ```
 
-5. **Raise a Pull Request (PR)**: Go to the repository on GitHub and raise a PR from your new branch to the `main` branch and also must be labelled as `automerge` as this is crucial for the auto-merge job to identify pull requests to merge upon successful completion of preceding checks. Provide a description of your changes and submit your PR.
+6. **Raise a Pull Request (PR)**: Go to the repository on GitHub and raise a PR from your new branch to the `main` branch and also must be labelled as `automerge` as this is crucial for the auto-merge job to identify pull requests to merge upon successful completion of preceding checks. Provide a description of your changes and submit your PR.
 
-6. **Peer Review**: Ask a peer to review your PR, or invite yourself with another account as a collaborator to approve the changes.
+7. **Peer Review**: Ask a peer to review your PR, or invite yourself with another account as a collaborator to approve the changes.
 
 ### Observing the Workflow in Action
 
