@@ -1,0 +1,21 @@
+{
+    "name": "math-operations-dev",
+    "version": "1.0.0",
+    "description": "A foundational repository for a math operations backend application, engineered to initiate unit tests upon merges to the main branch. This process seamlessly triggers an integrated workflow in a connected child repository, meticulously conducting end-to-end tests through GitHub Actions.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "dev": "nodemon src/app.js",
+        "start": "dev"
+    },
+    "keywords": [],
+    "author": "AST-LW",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "nodemon": "^3.0.2"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
