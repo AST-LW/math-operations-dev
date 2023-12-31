@@ -58,4 +58,4 @@ jobs:
           curl -XPOST -H "Authorization: Bearer ${{ secrets.ACCESS_TOKEN }}" \
           -H "Content-Type: application/json" \
           -d '{ "event_type": "trigger-e2e-tests-event" }' \
-          https://api.github.com/repos/<username>/math-operations-e2e/dispatches
+          https://api.github.com/repos/AST-LW/math-operations-e2e/dispatches
