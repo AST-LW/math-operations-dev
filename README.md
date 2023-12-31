@@ -59,7 +59,7 @@ Once you've set up your local environment by forking or downloading ( With downl
     git push origin feature/my-new-feature
     ```
 
-5. **Raise a Pull Request (PR)**: Go to the repository on GitHub and raise a PR from your new branch to the `main` branch. Provide a description of your changes and submit your PR.
+5. **Raise a Pull Request (PR)**: Go to the repository on GitHub and raise a PR from your new branch to the `main` branch and also must be labelled as `automerge` as this is crucial for the auto-merge job to identify pull requests to merge upon successful completion of preceding checks. Provide a description of your changes and submit your PR.
 
 6. **Peer Review**: Ask a peer to review your PR, or invite yourself with another account as a collaborator to approve the changes.
 
