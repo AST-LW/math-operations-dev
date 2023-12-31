@@ -1,5 +1,7 @@
 # math-operations-dev
 
+**Note**: math-operations-dev has been created as part of a practical demonstration for the blog post on [Cross-Repo Triggers in GitHub Actions](https://medium.com/@walkthroughfrom2020/cross-repo-triggers-in-github-actions-6e2bd2065ec1). The purpose of this repository is to showcase a real-world application of how to set up and utilize cross-repository triggers within GitHub Actions.
+
 `math-operations-dev` repository, the foundational backbone for a backend application focused on mathematical operations.This repository integrates unit tests within our Continuous Integration (CI) process. These tests are the first step in a series of automated validations, leading to an integrated end-to-end (E2E) testing workflow managed by a child repository, all orchestrated through GitHub Actions.
 
 ## Repository Directory Structure
